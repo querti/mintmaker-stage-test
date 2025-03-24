@@ -1,0 +1,8 @@
+{
+    "rpm": {
+    "enabled": true,
+    "schedule": [
+      "after 5am"
+    ]
+  }
+}
