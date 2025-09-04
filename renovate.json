@@ -1,8 +1,13 @@
 {
-    "rpm": {
+  "baseBranchPatterns": ["master", "release"],
+  "rpm-lockfile": {
     "enabled": true,
     "schedule": [
       "after 5am"
-    ]
+    ],
+    "lockFileMaintenance": {
+      "enabled": true,
+      "schedule": ["after 5am"]
+    }
   }
 }
