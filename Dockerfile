@@ -5,7 +5,7 @@
 
 #COPY yq/ .
 
-FROM registry.redhat.io/odf4/cephcsi-rhel9:v4.15.5@sha256:159f59fbd3c29d82e0b3bc8093e46cd9f8af3e2baa5921ecd1f9082c3fc22d89 as builder4
+FROM registry.redhat.io/odf4/cephcsi-rhel9:v4.22.10-1795198179@sha256:30df671c20c74a542ae5cf2bffb27eb526b89da0d8bf2f2bcb6e01d9ffa35f4c as builder4
 
 
 RUN CGO_ENABLED=0 go build -ldflags "-s -w" .
